@@ -15,8 +15,6 @@ class RestaurantsController < ApplicationController
   def create
     restaurant = Restaurant.new(params.require(:restaurant).permit(:name, :address, :phone_number, :category))
     restaurant.save
-
     redirect_to root_path
   end
-
 end

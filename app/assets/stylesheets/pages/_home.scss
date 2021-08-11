@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+li {
+  text-decoration: none;
+  color: #4792e6;
+}
+
+li:hover {
+  color: #4792e6;
+  text-decoration: none;
+}
+
+.btn-success {
+  color: white;
+}
+
+.btn-success:hover {
+  color: white;
+}
